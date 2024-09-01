@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+body {
+  overflow: hidden;
+  color: #282828;
+  font-family: Geneva, sans-serif;
+  background-color: #f0f0f0;
+  --background: rgb(255, 255, 255);
+  --primary: rgb(82, 148, 255);
+  --secondary: rgb(252, 252, 252);
+  --accent: rgb(243, 243, 243);
+  --tertiary: rgb(238, 238, 238);
+} */
+
+body {
+  overflow: scroll;
+  color: #292929;
+  font-family: Geneva, sans-serif;
+  background-color: #ebebeb;
+  --background: rgb(246, 246, 246);
+  --primary: rgb(125, 175, 255);
+  --secondary: rgb(201, 201, 201);
+  --accent: rgb(255, 255, 255);
+  --tertiary: rgb(214, 214, 214);
+}
+
+.form-container {
+  background-color: var(--background);
+}
+
+.btn {
+  background-color: var(--accent);
+}
+
+.submit_btn {
+  background-color: var(--primary);
+}
+
+.advice_box {
+  background-color: var(--accent);
+}
